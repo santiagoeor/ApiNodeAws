@@ -3,7 +3,7 @@ const app = express()
 const http = require('http');
 const port = 3000
 // const ip = '192.168.18.11';
-const ip = '172.26.12.98';
+const ip = '3.17.159.171';
 
 const serverHttp = http.createServer(app)
 serverHttp.listen(port, ip);
